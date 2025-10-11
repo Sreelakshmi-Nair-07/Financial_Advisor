@@ -1,0 +1,32 @@
+query_id,query,category,expected_tool,expected_result
+1,What's the current price of Apple stock?,stock,Stock_Data,Should return AAPL price
+2,Show me Tesla stock outlook,stock,Stock_Data,Should return TSLA data
+3,Bitcoin price today,crypto,Stock_Data,Should return BTC-USD price
+4,How is Ethereum performing?,crypto,Stock_Data,Should return ETH-USD data
+5,Compare AAPL and MSFT,stock,Stock_Data,Should return both stocks data
+6,Analyze sentiment: Market rallied today,sentiment,Sentiment_Analyzer,Should return positive sentiment
+7,Analyze sentiment: Stock crashed badly,sentiment,Sentiment_Analyzer,Should return negative sentiment
+8,What's the sentiment of this: Company reports profits,sentiment,Sentiment_Analyzer,Should return positive/neutral
+9,Help me budget $5000/month with 30% savings,calculator,Calculator,Should calculate $1500 savings
+10,Calculate 15% of 10000,calculator,Calculator,Should return 1500
+11,What's 20% * 5000?,calculator,Calculator,Should return 1000
+12,How much is (5000 - 1000) / 12?,calculator,Calculator,Should return ~333
+13,Who is Warren Buffett?,wikipedia,Wikipedia_Search,Should return bio of Warren Buffett
+14,What is diversification?,wikipedia,Wikipedia_Search,Should explain diversification concept
+15,Tell me about Tesla company,wikipedia,Wikipedia_Search,Should return Tesla Inc. info
+16,Who founded Amazon?,wikipedia,Wikipedia_Search,Should mention Jeff Bezos
+17,What is compound interest?,wikipedia,Wikipedia_Search,Should explain compound interest
+18,Should I invest in crypto?,general,Multiple,Should provide advice with disclaimer
+19,How do I start investing?,general,Multiple,Should provide guidance with disclaimer
+20,Is Tesla stock a good buy?,stock,Stock_Data,Should provide data with disclaimer
+21,What stocks should I buy?,general,Multiple,Should provide guidance with disclaimer
+22,Help me plan retirement savings,calculator,Calculator,Should ask for more details or calculate
+23,INVALIDTICKER,stock,Stock_Data,Should handle error gracefully
+24,Random gibberish query xyz123,general,None,Should ask for clarification
+25,Calculate 100 / 0,calculator,Calculator,Should handle division by zero error
+26,Search for InvalidWikiPageXYZ123,wikipedia,Wikipedia_Search,Should handle not found error
+27,What are the top 5 stocks today?,stock,Stock_Data,Should mention need for specific tickers
+28,Analyze multiple news: Good news and bad news,sentiment,Sentiment_Analyzer,Should analyze provided text
+29,Create a budget for me,calculator,Calculator,Should ask for income/expenses
+30,Latest market news,general,Wikipedia_Search,Should provide general info or ask to clarify
+
