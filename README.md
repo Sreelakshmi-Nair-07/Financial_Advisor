@@ -1,31 +1,41 @@
-Financial Advisor AI Agent
+💰 Financial Advisor AI Agent
 
-This project is an AI-powered financial assistant that provides real-time insights on stocks, cryptocurrencies, budgeting, and financial planning through natural language conversations.
+An AI-powered financial assistant that provides real-time insights on stocks, cryptocurrencies, budgeting, and financial planning through natural language conversations.
 
-Overview
+🧭 Overview
 
-The application integrates multiple data sources and AI models to deliver financial information in a conversational format. It uses the Google Gemini API for language understanding and reasoning, along with financial tools and APIs for data retrieval and analysis.
+The Financial Advisor AI Agent is designed to make financial information easy to access and understand.Powered by Google Gemini API and LangChain, it allows users to ask questions in plain English and get data-driven responses in seconds. The system integrates stock, crypto, and sentiment analysis tools to offer a complete picture of the financial landscape.
 
-Features
+🌟 Features
 
-Real-time stock market data and trends
+📈 Stock Market Insights: Real-time prices, historical trends, and analysis
 
-Cryptocurrency tracking (e.g., Bitcoin, Ethereum)
+🧠 Sentiment Analysis: Understand financial news tone using NLTK VADER
 
-Sentiment analysis using NLTK VADER
+💰 Budget Planning: Personalized budgeting and savings suggestions
 
-Budgeting and financial calculations
+📚 Knowledge Lookup: Access financial concepts from Wikipedia
 
-Financial knowledge lookup via Wikipedia API
+💬 Conversational Interface: Streamlit-powered chat UI for easy interaction
 
-Interactive chat interface built with Streamlit
-
-Tech Stack
+⚙️ Tech Stack
 
 Language Model: Google Gemini
 
-Frameworks: LangChain, Streamlit
+Framework: LangChain (ReAct architecture)
+
+Frontend: Streamlit
 
 Libraries: yfinance, NLTK, Wikipedia API
 
-Language: Python
+Language: Python 3.9+
+
+💡 Example Use Cases
+
+“What’s the current price of Tesla stock?”
+
+“Show me Bitcoin’s performance this month.”
+
+“Help me plan a $6000 monthly budget.”
+
+“Analyze this: The market ended higher today.”
